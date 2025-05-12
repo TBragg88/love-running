@@ -80,10 +80,16 @@ nav {
 
 /* Main */
 main {
-    background-color: lightblue;
     /* make main element take up any surplex space pushing footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../img/hero.png) no-repeat center center/cover;
 }
 /* Footer */
 #social-networks {
