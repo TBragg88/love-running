@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* Body */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -25,6 +25,10 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+
+.hidden-heading {
+    display: none;
 }
 /* Header */
 header {
@@ -161,7 +165,7 @@ main {
 
 #times h3 {
     /* overriding the heading colour set in general styles  */
-    color:#fafafa
+    color: #fafafa;
 }
 
 /* Footer */
